@@ -1,0 +1,200 @@
+
+body
+{
+    background: #8080ff;
+}
+.frame
+{
+    background: #ffffff;
+    height: 600px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: solid 2px #4d4d4d;
+    box-shadow: 0px 2px 0px 8px #d9d9d9;
+    position: relative;
+}
+.senser
+{
+    background: gray;
+    height: 10px;
+    width: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.speaker
+{
+    background: black;
+    height: 8px;
+    width: 60px;
+    border-radius: 100px;
+    margin-top: 22px;
+    margin-left: 25px;
+}
+.light
+{
+    background: #ffff33;
+    height: 8px;
+    width: 8px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 1px gray;
+    margin-top: 22px;
+    margin-left: 30px;    
+}
+.camera
+{
+    background: black;
+    height: 4px;
+    width: 4px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 4px gray;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+/*all displays on the screen*/
+.allScreen
+{
+    height: 78%;
+    margin-top: 25px;
+}
+.screen
+{
+    background: #e6e6e6;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/06/beautiful-nature-background.jpg");
+    height: 98%;
+    box-shadow: 0px 0px 0px 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1
+{
+    font-size: 50px;
+    color: #d9d9d9;
+    text-shadow: 3px 5px 2px #808080;
+    opacity: 0.8;
+}
+.screen2
+
+{
+    display: none;
+    background: #e6e6e6;
+    background-image: url("http://2.bp.blogspot.com/-OCwubbY3E3E/UVnLLF3OI8I/AAAAAAAADCk/-g2ZCgH03QQ/s1600/Iphone-Animated-Wallpaper-712260.jpg");
+    height: 98%;
+    box-shadow: 0px 0px 0px 12px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.screen3
+{
+    background: brown;
+    height: inherit;
+    display: none;
+    background: #e6e6e6;
+    height: 98%;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/82/42/f8/8242f8cef710090d76a6787878f41f99.jpg");
+    box-shadow: 0px 0px 0px 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*display on screens end*/
+.home
+{
+    position: absolute;
+    top: 525px;
+}
+.options
+{
+    height: 20px;
+    width: 20px;
+    border: solid 3px gray;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+.homebtn
+{
+    height: 20px;
+    width: 20px; 
+    top: 30px;
+    left: 130px;
+    border: solid 3px gray;
+    border-radius: 50px;
+    position: absolute;
+/*    box-shadow: 0px 0px 0px 10px */
+}
+.back
+{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 22px solid gray;
+    top: 28px;
+    left: 220px;
+}
+.back2
+{
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 16px solid #fff;
+    margin-top: -7px;
+    margin-left: 4px;
+}
+.protector
+{
+    background: white;
+    margin-top:-565px;
+    height: 554px;
+    opacity: 0.1;
+    border-radius: 50px;
+    border: solid 2px black;
+    box-shadow: 0px 0px 50px 5px;
+}
+/*triansparient section*/
+#trans_options
+{
+    background: white;
+    height: 22px;
+    width: 22px;
+    margin-top: 6px;
+    opacity: 0.5;
+    margin-left: 21px;
+    cursor: pointer;
+    outline: none;
+}
+.trans_homebtn
+{
+    background: white;
+    height: 22px;
+    width: 22px;
+    margin-top: 6px;
+    opacity: 0.5;
+    margin-left: 22px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+}
+.trans_back
+{
+/*    background: red;*/
+    height: 22px;
+    width: 22px;
+    margin-top: 6px;
+    opacity: 0.5;
+    margin-left: 18px;
+    cursor: pointer;
+    outline: none;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 22px solid white; 
+}
+.trans
+{
+    margin-top: -50px;
+    height: 30px;
+    width: 20px;
+}
